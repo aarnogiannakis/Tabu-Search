@@ -3,7 +3,6 @@
 This script outlines the implementation of a Tabu Search algorithm tailored for solving the Traveling Salesman Problem (TSP) with precedence constraints. This project is my submission for the course 42137 Optimization using Metaheuristics, taught by Thomas Jacob Riis Stidsen and Dario Pacino at DTU.
 
   **Neighborhood Operator:** 
-  
   The algorithm uses a custom swap operation to generate neighboring solutions.
                           Specifically, it considers swapping two customers in the current route to explore potential new solutions.
                           The feasibility of these swaps is evaluated by checking whether they violate any precedence constraints.
